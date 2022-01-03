@@ -1,0 +1,18 @@
+.RecipeList__box {
+    position: relative;
+    background-color: transparent;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.RecipeList__infiniteScroll {
+    width: 100%;
+}
+
+.RecipeList__searchResponse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 300px;
+}

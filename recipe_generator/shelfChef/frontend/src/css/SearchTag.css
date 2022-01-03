@@ -1,0 +1,24 @@
+.SearchTag__body {
+    cursor: default;
+    display: inline-block;
+    font-size: 25px;
+    height: 35px;
+    margin: 3px;
+    width: auto;
+    color: #dbd8d8;
+    background: #d49d81;
+    border-radius: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 10px;
+    -webkit-box-shadow: -3px 5px 8px 0px rgba(84, 84, 84, 0.81); 
+    box-shadow: -3px 5px 8px 0px rgba(84, 84, 84, 0.81);
+}
+
+.SearchTag__removeButton {
+    top: -2px;
+}
+
+.SearchTag__removeIcon {
+    color: #dbd8d8;
+}

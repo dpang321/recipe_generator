@@ -1,0 +1,53 @@
+.ProfilePopup__body {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 75px;
+    left: 15px;
+    background-color: #dbd8d8;
+    height: 265px;
+    width: 200px;
+    border-radius: 10px;
+    -webkit-box-shadow: -3px 5px 8px 0px rgba(84, 84, 84, 0.81); 
+    box-shadow: -3px 5px 8px 0px rgba(84, 84, 84, 0.81);
+}
+
+.ProfilePopup__noClickZone {
+    z-index: 1;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    height: 70px;
+    width: 70px;
+    background: transparent;
+    border-radius: 50px;
+}
+
+.ProfilePopup__button {
+    cursor: pointer;
+    position: relative;
+    top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: 1px solid #454545;
+    color: #454545;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.ProfilePopup__avatar {
+    position: relative;
+    top: 15px;
+    left: 50px;
+}
+
+.ProfilePopup__username {
+    position: relative;
+    top: 20px;
+    align-self: center;
+}

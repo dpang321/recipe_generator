@@ -1,0 +1,42 @@
+ShelfChefDB Schema
+
+This document outlines our shelfchefdb database schema
+
+-- Tables --
+
+CREATE TABLE recipes
+(
+    id integer,
+    title text,
+    ingredients jsonb,
+    directions jsonb,
+    link text,
+    source text,
+    NER jsonb,
+    likes integer,
+);
+
+CREATE TABLE ingredients
+(
+    ingredients text,
+    count integer,
+);
+
+CREATE TABLE users
+(
+    uuid text,
+    username text,
+    password text, 
+    liked_recipes integer[],
+    avatar_link text,
+);
+
+-- Indexes --
+
+CREATE INDEX IF NOT EXISTS "ner_Index"
+    ON recipes USING btree
+    (jsonb_array_length("NER") ASC NULLS LAST, likes DESC NULLS LAST);
+
+CREATE INDEX IF NOT EXISTS "id_Index"
+    ON recipes USING btree
+    (id ASC NULLS LAST);

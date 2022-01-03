@@ -1,0 +1,23 @@
+.RecipeListItem__recipe {
+    cursor: pointer;
+    padding: 10px;
+    height: auto;
+    width: auto;
+    color: #646464;
+    margin: 10px;
+    background-color: #ffffff5e;
+    border-radius: 8px;
+    box-shadow: -3px 5px 8px 0px rgba(84, 84, 84, 0.81);
+}
+
+.RecipeListItem__recipe:hover {
+    background-color: rgb(175, 171, 171);
+}
+
+.RecipeListItem__recipeTitle {
+    font-size: 30px;
+}
+
+.RecipeListItem__likes {
+    float: right;
+}

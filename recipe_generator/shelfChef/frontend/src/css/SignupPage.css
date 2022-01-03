@@ -1,0 +1,59 @@
+.SignupPage__body {
+    z-index: 1;
+    height: 500px;
+    width: 400px;
+    padding-top: 40px;
+    background: #dbd8d8;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    -webkit-box-shadow: -3px 5px 8px 0px rgba(84, 84, 84, 0.81); 
+    box-shadow: -3px 5px 8px 0px rgba(84, 84, 84, 0.81);
+}
+
+.SignupPage__label {
+    position: relative;
+    top: 70px;
+    margin-bottom: 20px;
+}
+
+.SignupPage__input {
+    position: relative;
+    display: flex;
+    border-top: 1px transparent;
+    border-left: 1px transparent;
+    border-right: 1px transparent;
+    border-bottom: 1px solid #454545;
+    outline: none;
+    font-size: 25px;
+    width: auto;
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+
+.SignupPage__topText {
+    font-size: 50px;
+    position: relative;
+    top: 10px;
+    justify-content: center;
+    display: flex;
+}
+
+.SignupPage__submitButton {
+    cursor: pointer;
+    position: relative;
+    top: 75px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: 1px solid #454545;
+    color: #454545;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+}

@@ -1,0 +1,124 @@
+.UserProfile__userIcon {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    height: 60px;
+    width: 60px;
+}
+
+.UserProfile__centerPageUsernameAndAvatar {
+    position: relative;
+    margin-top: 450px;
+    top: 50px;
+}
+
+.UserProfile__centerPageProfileAvatar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    box-shadow: -3px 5px 8px 0px rgba(84, 84, 84, 0.81);
+}
+.UserProfile__centerPageProfileUsername {
+    cursor: default;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 50pt;
+    color: #454545;
+}
+
+.UserProfile__userProfileData {
+    position: relative;
+    left: 0px;
+    right: 450px;
+    top: -250px;
+}
+
+.UserProfile__likedRecipes {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #dbd8d8;
+    border-radius: 10px;
+    position: relative;
+    top: -30px;
+    margin-bottom: 40px;
+    height: 450px;
+    min-height: 200px;
+    max-height: 550px;
+    width: 1000px;
+    box-shadow: -3px 5px 8px 0px rgba(84, 84, 84, 0.81);
+}
+
+.UserProfile__likedRecipesHeader {
+    align-self: flex-start;
+    text-align: center;
+    background-color: inherit;
+    border-radius: inherit;
+    width: 100%;
+    color: black;
+    border: 0px;
+}
+
+.UserProfile__recipesList {
+    align-self: flex-start;
+    min-width: 1000px;
+    width: 100%;
+}
+
+.UserProfile__editProfileButton {
+    cursor: pointer;
+    background-color: #dbd8d8;
+    color: #454545;
+    padding: 10px 20px;
+    position: relative;
+    top: -95px;
+    left: 898px;
+    border-width: 0px;
+    border-radius: 8px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right:0px;
+    box-shadow: -3px 5px 8px 0px rgba(84, 84, 84, 0.81);
+}
+
+.UserProfile__saveProfileButton {
+    cursor: pointer;
+    background-color: #dbd8d8;
+    color: #454545;
+    padding: 10px 20px;
+    position: relative;
+    top: -95px;
+    left: 898px;
+    border-width: 0px;
+    border-radius: 8px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right:0px;
+    box-shadow: -3px 5px 8px 0px rgba(84, 84, 84, 0.81);
+}
+
+.UserProfile__editAvatarURL {
+    position: relative;
+    width: 500px;
+    top: 10px;
+    left: 110px;
+    padding: 10px 10px;
+}
+
+.UserProfile__editUsername {
+    background-color: #dbd8d8; 
+    border: 0px; 
+    box-shadow: -3px 5px 8px 0px rgba(84, 84, 84, 0.81); 
+    border-radius: 5px;
+    position: relative;
+    top: -25px;
+    width: 300px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    left: 360px;
+    font-size: 50pt;
+    color: #454545;
+    
+}

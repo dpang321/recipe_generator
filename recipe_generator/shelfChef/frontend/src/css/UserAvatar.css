@@ -1,0 +1,16 @@
+.UserAvatar__userAvatar {
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    box-shadow: -3px 5px 8px 0px rgba(84, 84, 84, 0.81);
+}
+.UserAvatar__username {
+    cursor: default;
+    position: absolute;
+    margin-top: 12px;
+    top: 0px;
+    left: 65px;
+    font-weight: bold;
+    color:  #454545;
+}

@@ -1,0 +1,28 @@
+.RecipeTag__haveIngredient {
+    display: inline-block;
+    font-size: 18px;
+    height: 25px;
+    margin: 3px;
+    width: auto;
+    align-items: center;
+    background-color: #d49d81;
+    color: #dbd8d8;
+    border-radius: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 10px;
+}
+
+.RecipeTag__missingIngredient {
+    display: inline-block;
+    font-size: 18px;
+    height: 25px;
+    margin: 3px;
+    width: auto;
+    background-color: #a19090;
+    color: #dbd8d8;
+    border-radius: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 10px;
+}

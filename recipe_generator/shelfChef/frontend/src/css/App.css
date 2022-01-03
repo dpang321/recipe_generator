@@ -1,0 +1,43 @@
+html, .App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: rgb(172,165,155);
+  background: linear-gradient(180deg, #aca59b 17%,#d49d81 53%, #946b69 90%);
+}
+
+.App__container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.App__userProfile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:600px;
+}
+
+.App__recipeList {
+  position: relative;
+  top: 0px;
+  width: 1000px;
+}
+
+.App__recipeDisplay {
+  top: 0px;
+  width: 1000px;
+  max-height: 1000px;
+}
+
+.App__likedRecipeDisplay {
+  top: 0px;
+  width: 1000px;
+  max-height: 700px;
+}

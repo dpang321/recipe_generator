@@ -1,0 +1,19 @@
+{
+  "name": "shelfchef",
+  "version": "1.0.0",
+  "description": "recipe generator",
+  "main": "index.js",
+  "proxy": "http://10.0.0.123:3000/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^4.3.2",
+    "express": "^4.17.1",
+    "pg": "^8.7.1",
+    "uuid": "^8.3.2"
+  }
+}

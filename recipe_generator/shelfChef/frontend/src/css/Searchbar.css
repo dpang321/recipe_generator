@@ -1,0 +1,38 @@
+.Searchbar__searchBody {
+    top: 400px;
+    position: fixed;
+    justify-content: center;
+    display: flex;
+    height: auto;
+    width: auto;
+    background-color: #dbd8d8;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+    -webkit-box-shadow: -3px 5px 8px 0px rgba(84, 84, 84, 0.81); 
+    box-shadow: -3px 5px 8px 0px rgba(84, 84, 84, 0.81);
+}
+
+.Searchbar__searchText {
+    position: relative;
+    top: 5px;
+    display: flex;
+    border-top: 1px transparent;
+    border-left: 1px transparent;
+    border-right: 1px transparent;
+    border-bottom: 1px solid #454545;
+    outline: none;
+    font-size: 25px;
+    width: 690px;
+    background-color: transparent;
+}
+
+.Searchbar__searchField{
+    max-height: 450px;
+}
+
+.Searchbar__searchInput {
+    display: inline-block;
+    margin-bottom: 10px;
+    max-width: 850px;
+}

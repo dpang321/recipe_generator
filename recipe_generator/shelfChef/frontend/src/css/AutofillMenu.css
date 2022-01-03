@@ -1,0 +1,26 @@
+.AutofillMenu__search {
+    display: flex;
+    flex-direction: row;
+}
+
+.AutofillMenu__searchButton {
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #454545;
+    color: #454545;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 15px;
+    border-radius: 8px;
+}
+
+.AutofillMenu__results {
+    margin-top: 10px;
+    max-height: 350px;
+    overflow: auto;
+}
